@@ -1,0 +1,16 @@
+.parent {
+  width: 500px;
+  background-color: rgb(202, 19, 19);
+  color: #fff;
+  padding: 1rem;
+  .children {
+    width: 400px;
+    background-color: rgb(199, 202, 19);
+    padding: 1rem;
+    .grand {
+      width: 300px;
+      background-color: rgb(19, 150, 202);
+      padding: 1rem;
+    }
+  }
+}

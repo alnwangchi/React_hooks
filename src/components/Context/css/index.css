@@ -1,0 +1,18 @@
+.parent {
+  width: 500px;
+  background-color: #ca1313;
+  color: #fff;
+  padding: 1rem;
+}
+
+.parent .children {
+  width: 400px;
+  background-color: #c7ca13;
+  padding: 1rem;
+}
+
+.parent .children .grand {
+  width: 300px;
+  background-color: #1396ca;
+  padding: 1rem;
+}
